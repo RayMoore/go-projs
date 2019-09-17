@@ -13,4 +13,18 @@ func main() {
 	 */
 
 	fmt.Println("hello go lang")
+	fmt.Println("You can seperate long string by using \",\".",
+		"Like + in Java and other langs")
+
+	// variables
+	var i int
+	i = 10
+	fmt.Println(i)
+	// use "," to concat string, a blank space will be added
+	fmt.Println("i =", i)
+	// other methods to declare variables
+	var j = 10.11 // dynamic binding
+	fmt.Println("j =", j)
+	k := "this is a string" // omit "var" to declare a variable
+	fmt.Println("k =", k)
 }
